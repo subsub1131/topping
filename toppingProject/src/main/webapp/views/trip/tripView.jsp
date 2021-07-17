@@ -18,7 +18,7 @@
 	<br>
 	<br>
 	<br>
-	<br>
+	<h1>왜 안되는것이냐</h1>
 	<br>
 	<h1 style="text-align: center;">
 		여행검색 페이지<i class="bi bi-heart-fill"
