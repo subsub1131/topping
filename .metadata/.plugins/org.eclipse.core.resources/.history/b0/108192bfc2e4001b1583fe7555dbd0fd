@@ -1,0 +1,124 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!-- 	//import="member.model.vo.Member"   -->
+<%
+//로그인 확인을 위해서 내장된 session 객체를 이용
+//Member loginMember = (Member)session.getAttribute("loginMember");
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title></title>
+<style type="text/css">
+
+#topping_wrap1 {
+	width: 100%;
+}
+
+#topping_header {
+	width: 100%;
+}
+
+.main_menu {
+	border-bottom: 1px solid black;
+}
+
+.main_menu_w1230 {
+	width: 1230px;
+	height: 75px;
+	margin: 0 auto;
+	clear: both;
+}
+
+#headerLogo img {
+	width: 220px;
+	height: 60px;
+	margin-top: 4px;
+	float: left;
+}
+
+#serviceLogo img {
+	float: right;
+	margin-top: 12px;
+}
+
+#loginLogo img {
+	float: right;
+	margin-top: 12px;
+	margin-right: 5px;
+}
+
+.menubar {
+	width: 740px;
+	line-height: 75px;
+	text-align: center;
+	margin: 0 auto;
+	float: left;
+}
+
+.menubar li {
+	list-style: none;
+	display: inline-block;
+	margin-right: 45px;
+}
+
+.middle_area {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+.menuLink {
+	
+}
+</style>
+</head>
+<body>
+	<div id="topping_wrap1">
+		<div id="topping_header">
+			<div class="main_menu">
+				<div class="main_menu_w1230">
+					<div>
+						<a href="http://localhost:8808/topp/" id="headerLogo"> <img
+							src="/topp/resources/images/toppingLogo.png">
+						</a>
+					</div>
+					<div class="middle_area">
+
+						<ul class="menubar">
+							<li><a class="menuLink" href="#">여행정보 검색</a></li>
+							<li><a class="menuLink" href="#">여행일기</a></li>
+							<li><a class="menuLink" href="#">트립박스</a></li>
+							<li><a class="menuLink" href="#">마이페이지</a></li>
+							<li><a class="menuLink" href="#">커뮤니티</a></li>
+						</ul>
+
+						<div>
+							<a href="http://localhost:8808/topp/" id="serviceLogo"> <img
+								src="/topp/resources/images/toppingService.png">
+							</a>
+						</div>
+
+						<div>
+							<a href="http://localhost:8808/topp/" id="loginLogo"> <img
+								src="/topp/resources/images/toppingLogin.png">
+							</a>
+						</div>
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+  <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+</svg>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
+
+
+
+
+
+
