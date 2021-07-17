@@ -1,4 +1,3 @@
 .metadata/*
 *.tree
-servers3
-lib
+servers3/*
