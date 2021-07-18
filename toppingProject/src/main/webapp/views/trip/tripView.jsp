@@ -13,60 +13,32 @@
 	margin: 0 auto;
 }
 
-#sns_main {
-	display: block;
+.blog_main {
+	display: flex;
+	margin-left: 50px;
 	float: left;
+	width: 580px; 
 	border: solid 1px rgb(232, 235, 238);
-	border-radius: 15px;
-	margin-left: 30px;
-	margin-right: 30px;
-	width: 650px;
+	border-radius: 10px;
 }
 
-#trip_main {
-	display: block;
+.trip_main {
+ 	display: flex; 
+ 	margin-left: 30px;
+ 	border: solid 1px rgb(232, 235, 238); 
+ 	border-radius: 10px;
+ 	width: 500px;
 	float: left;
-	border: solid 1px rgb(232, 235, 238);
-	border-radius: 15px;
-	width: 448px;
-}
-
-.sns_contents {
-	display: block;
-	width: 580px;
-}
-
-.trip_contents {
-	display: block;
-	width: 400px;
-}
-
-.blog_title {
-	display: block;
-	width: 230px;
-	height: 25px;
-	line-height: 24px;
-}
-
-.blog_cont {
-	display: block;
-	width: 230px;
-}
-
-.blog_p {
-	width: 200px;
 }
 
 .blog_thumb {
-	display: block;
-	float: left;
-	width: 132px;
+	width: 135px;
 }
 
-.bx {
-	list-style: none;
-	display: list-item;
+.blog_box {
+	margin-left: 30px;
 }
+
 </style>
 </head>
 <body>
@@ -76,33 +48,32 @@
 	<div id="wrap">
 		<br>
 		<br>
-		<div class="sns_main" id="sns_main">
-			<ul class="list total">
-				<li class="bx" id="blog_1">
-					<div class="sns_contents" style="display: flex;">
-						<a class="blog_thumb"
-							href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
-							<img class="blog_thumb"
-							src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MDVfNTMg%2FMDAxNjI1NDg5NjI5NDc0.MW6w7yxhMI-XGXYiDr48E_RPsZiIB9g3Yldv8nV7U88g.qqowWlRQ9spzipJkObEw9ljCATw7KqXF-VyZZZoF0oAg.JPEG.priti1%2F20210628_112619.jpg%234032x2268&type=ff264_180">
-						</a>
-						<div class="blog_title">
-						<h3>제목</h3>
-						</div>
-						<div class="blog_cont">
-						<p>내용</p>
-						</div>
-					</div>
-				</li>
-			</ul>
+		<div class="blog_main">
+			<div class="blog_box">
+				<a class="blog_thumb"
+					href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
+					<img class="blog_thumb"
+					src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MDVfNTMg%2FMDAxNjI1NDg5NjI5NDc0.MW6w7yxhMI-XGXYiDr48E_RPsZiIB9g3Yldv8nV7U88g.qqowWlRQ9spzipJkObEw9ljCATw7KqXF-VyZZZoF0oAg.JPEG.priti1%2F20210628_112619.jpg%234032x2268&type=ff264_180">
+				</a>
+			</div>
+			<div class="blog_conbox">
+				<div>제목</div>
+				<div>내용</div>
+			</div>
 		</div>
-		<div class="trip_main" id="trip_main">
-			<ul class="list total">
-				<li class="bx" id="blog_1">
-					<div class="trip_contents" style="display: flex;"></div>
-				</li>
-			</ul>
+		<div class="trip_main">
+			<div class="blog_box">
+				<a class="blog_thumb"
+					href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
+					<img class="blog_thumb"
+					src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MDVfNTMg%2FMDAxNjI1NDg5NjI5NDc0.MW6w7yxhMI-XGXYiDr48E_RPsZiIB9g3Yldv8nV7U88g.qqowWlRQ9spzipJkObEw9ljCATw7KqXF-VyZZZoF0oAg.JPEG.priti1%2F20210628_112619.jpg%234032x2268&type=ff264_180">
+				</a>
+			</div>
+			<div class="blog_conbox">
+				<div>제목</div>
+				<div>내용</div>
+			</div>
 		</div>
-		<br>
 		<br>
 		<br>
 		<br>
