@@ -51,11 +51,19 @@ label {
 .blog_thumb {
 	width: 135px;
 	margin-right: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .trip_thumb {
 	width: 135px;
 	margin-right: 10px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
 }
 
 .blog_box {
