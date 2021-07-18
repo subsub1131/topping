@@ -59,7 +59,7 @@
 
 .blog_thumb {
 	display: block;
-	float: right;
+	float: left;
 	width: 132px;
 }
 
@@ -80,17 +80,17 @@
 			<ul class="list total">
 				<li class="bx" id="blog_1">
 					<div class="sns_contents" style="display: flex;">
+						<a class="blog_thumb"
+							href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
+							<img class="blog_thumb"
+							src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MDVfNTMg%2FMDAxNjI1NDg5NjI5NDc0.MW6w7yxhMI-XGXYiDr48E_RPsZiIB9g3Yldv8nV7U88g.qqowWlRQ9spzipJkObEw9ljCATw7KqXF-VyZZZoF0oAg.JPEG.priti1%2F20210628_112619.jpg%234032x2268&type=ff264_180">
+						</a>
 						<div class="blog_title">
 						<h3>제목</h3>
 						</div>
 						<div class="blog_cont">
 						<p>내용</p>
 						</div>
-						<a class="blog_thumb"
-							href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
-							<img class="blog_thumb"
-							src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MDVfNTMg%2FMDAxNjI1NDg5NjI5NDc0.MW6w7yxhMI-XGXYiDr48E_RPsZiIB9g3Yldv8nV7U88g.qqowWlRQ9spzipJkObEw9ljCATw7KqXF-VyZZZoF0oAg.JPEG.priti1%2F20210628_112619.jpg%234032x2268&type=ff264_180">
-						</a>
 					</div>
 				</li>
 			</ul>
