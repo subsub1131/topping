@@ -15,7 +15,7 @@
 
 .search_header {
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 60px;
 	margin-bottom: 50px;
 }
 
@@ -34,10 +34,6 @@ label {
 	line-height: 25px;
 }
 
-.searchView {
-	margin: 0 auto;
-}
-
 .blog_main {
 	margin-left: 30px;
 	float: left;
@@ -48,6 +44,7 @@ label {
 	margin-left: 30px;
 	width: 500px;
 	float: left;
+	border-left: solid 1px black;
 }
 
 .blog_thumb {
@@ -88,7 +85,7 @@ label {
 	</header>
 	<div id="wrap">
 		<div class="search_header">
-		<!-- 여행정보 검색 -->
+			<!-- 여행정보 검색 -->
 			<h1 class="searchTitle">여행정보 검색</h1>
 			<form action="" method="post">
 				<!-- 여행 검색바 -->
@@ -100,7 +97,7 @@ label {
 						<i class="bi bi-search"></i>
 					</button class="btn_search_submit">
 				</div>
-				<!-- 카테고리 체크박스 -->>
+				<!-- 카테고리 체크박스 -->
 				<div class="searchChk">
 					<label><input type="checkbox" name="tripCate" value="01"
 							checked="checked">관광지</label> <label><input
@@ -114,7 +111,7 @@ label {
 		<br>
 		<br>
 		<div class="searchView">
-		<!-- SNS 검색목록 -->
+			<!-- SNS 검색목록 -->
 			<div class="blog_main">
 				<h3 style="text-align: center;">SNS 검색목록</h3>
 				<div class="blog_box">
@@ -125,9 +122,7 @@ label {
 					</a>
 					<div class="blog_conbox">
 						<div>
-							<h5>
-								제목
-								<h5>
+							<h5>제목</h5>
 						</div>
 						<div>내용</div>
 					</div>
@@ -145,9 +140,7 @@ label {
 
 					<div class="trip_conbox">
 						<div>
-							<h5>
-								제목
-								<h5>
+							<h5>제목</h5>
 						</div>
 						<div>내용</div>
 					</div>
