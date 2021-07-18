@@ -13,21 +13,43 @@
 	margin: 0 auto;
 }
 
+.search_header {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.searchBar {
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.btn_search_submit {
+	background-color: white;
+}
+
+label {
+	display: inline-block;
+	width: 80px;
+	line-height: 25px;
+	
+}
+
 .blog_main {
 	display: flex;
 	margin-left: 50px;
 	float: left;
-	width: 580px; 
+	width: 580px;
 	border: solid 1px rgb(232, 235, 238);
 	border-radius: 10px;
 }
 
 .trip_main {
- 	display: flex; 
- 	margin-left: 30px;
- 	border: solid 1px rgb(232, 235, 238); 
- 	border-radius: 10px;
- 	width: 500px;
+	display: flex;
+	margin-left: 30px;
+	border: solid 1px rgb(232, 235, 238);
+	border-radius: 10px;
+	width: 500px;
 	float: left;
 }
 
@@ -38,7 +60,6 @@
 .blog_box {
 	margin-left: 30px;
 }
-
 </style>
 </head>
 <body>
@@ -46,6 +67,23 @@
 		<%@ include file="/views/common/menubar.jsp"%>
 	</header>
 	<div id="wrap">
+		<div class="search_header">
+			<h1 class="searchTitle">여행정보 검색</h1>
+			<form action="" method="post">
+				<div class="searchBar">
+					<input type="text" name="searchTrip"
+						placeholder="여행가고 싶은 곳을 입력해주세요." onfocus="this.placeholder=''"
+						onblur="this.placeholder='여행가고 싶은 곳을 입력해주세요.'" size="50">
+						<button type="submit"><i class="bi bi-search"></i></button class="btn_search_submit">
+				</div>
+				<div class="searchChk">
+					<label><input type="checkbox" name="tripCate" value="01" checked="checked">관광지</label> 
+					<label><input type="checkbox" name="tripCate" value="02" checked="checked">맛집</label>
+					<label><input type="checkbox" name="tripCate" value="03" checked="checked">액티비티</label> 
+					<label><input type="checkbox" name="tripCate" value="04" checked="checked">숙박</label>
+				</div>
+			</form>
+		</div>
 		<br>
 		<br>
 		<div class="blog_main">
@@ -74,6 +112,21 @@
 				<div>내용</div>
 			</div>
 		</div>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<br>
 		<br>
 		<br>
