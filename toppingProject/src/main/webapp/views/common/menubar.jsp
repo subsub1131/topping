@@ -85,7 +85,7 @@
 			<div class="main_menu">
 				<div class="main_menu_w1230">
 					<div>
-						<a href="http://localhost:8808/topp/" id="headerLogo"> <img
+						<a href="/topp/index.jsp" id="headerLogo"> <img
 							src="/topp/resources/images/toppingLogo.png">
 						</a>
 					</div>
@@ -100,13 +100,13 @@
 						</ul>
 
 						<div>
-							<a href="http://localhost:8808/topp/" id="serviceLogo"> <img
+							<a href="/topp/index.jsp" id="serviceLogo"> <img
 								src="/topp/resources/images/toppingService.png">
 							</a>
 						</div>
 
 						<div>
-							<a href="http://localhost:8808/topp/" id="loginLogo"> <img
+							<a href="/topp/index.jsp" id="loginLogo"> <img
 								src="/topp/resources/images/toppingLogin.png">
 							</a>
 						</div>
