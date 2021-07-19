@@ -125,8 +125,6 @@ label {
 				</div>
 			</form>
 		</div>
-		<br>
-		<br>
 		<div class="searchView">
 			<!-- SNS 검색목록 -->
 			<div class="blog_main">
