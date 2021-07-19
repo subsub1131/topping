@@ -39,26 +39,6 @@
 	margin-left: 30px;
 }
 
-<<<<<<< Updated upstream
-=======
-.trip_box {
-	margin-left: 30px;
-	display: flex;
-	padding-top: 10px;
-	padding-left: 15px;
-	padding-bottom: 10px;
-	border: solid 1px rgb(232, 235, 238);
-	border-radius: 10px;
-}
-.searchView{
-    width: 1218px;
-    margin: 70px 230px 40px 230px;
-    height: 400px;
-}
-.tripInfoPage{
-	clear:both;
-}
->>>>>>> Stashed changes
 </style>
 </head>
 <body>
@@ -66,7 +46,6 @@
 		<%@ include file="/views/common/menubar.jsp"%>
 	</header>
 	<div id="wrap">
-<<<<<<< Updated upstream
 		<br>
 		<br>
 		<div class="blog_main">
@@ -76,49 +55,6 @@
 					<img class="blog_thumb"
 					src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MDVfNTMg%2FMDAxNjI1NDg5NjI5NDc0.MW6w7yxhMI-XGXYiDr48E_RPsZiIB9g3Yldv8nV7U88g.qqowWlRQ9spzipJkObEw9ljCATw7KqXF-VyZZZoF0oAg.JPEG.priti1%2F20210628_112619.jpg%234032x2268&type=ff264_180">
 				</a>
-=======
-		<div class="search_header">
-			<!-- 여행정보 검색 -->
-			<h1 class="searchTitle">여행정보 검색</h1>
-			<form action="" method="post">
-				<!-- 여행 검색바 -->
-				<div class="searchBar">
-					<input type="text" name="searchTrip"
-						placeholder="여행가고 싶은 곳을 입력해주세요." onfocus="this.placeholder=''"
-						onblur="this.placeholder='여행가고 싶은 곳을 입력해주세요.'" size="50">
-					<button type="submit">
-						<i class="bi bi-search"></i>
-					</button class="btn_search_submit">
-				</div>
-				<!-- 카테고리 체크박스 -->
-				<div class="searchChk">
-					<label><input type="checkbox" name="tripCate" value="01"
-							checked="checked">관광지</label> <label><input
-							type="checkbox" name="tripCate" value="02" checked="checked">맛집</label>
-					<label><input type="checkbox" name="tripCate" value="03"
-							checked="checked">액티비티</label> <label><input
-							type="checkbox" name="tripCate" value="04" checked="checked">숙박</label>
-				</div>
-			</form>
-		</div>
-		<div class="searchView">
-			<!-- SNS 검색목록 -->
-			<div class="blog_main">
-				<h3 style="text-align: center;">SNS 검색목록</h3>
-				<div class="blog_box">
-					<a class="blog_thumb"
-						href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
-						<img class="blog_thumb"
-						src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA3MDVfNTMg%2FMDAxNjI1NDg5NjI5NDc0.MW6w7yxhMI-XGXYiDr48E_RPsZiIB9g3Yldv8nV7U88g.qqowWlRQ9spzipJkObEw9ljCATw7KqXF-VyZZZoF0oAg.JPEG.priti1%2F20210628_112619.jpg%234032x2268&type=ff264_180">
-					</a>
-					<div class="blog_conbox">
-						<div>
-							<h5>제목</h5>
-						</div>
-						<div>내용</div>
-					</div>
-				</div>
->>>>>>> Stashed changes
 			</div>
 			<div class="blog_conbox">
 				<div>제목</div>
@@ -138,20 +74,21 @@
 				<div>내용</div>
 			</div>
 		</div>
-<<<<<<< Updated upstream
 		<br>
 		<br>
 		<br>
 		<h1 style="text-align: center;">
-=======
-		<div class="tripInfoPage">
-			<h1 style="text-align: center;">
->>>>>>> Stashed changes
 			여행검색 페이지<i class="bi bi-heart-fill"
 				style="font-size: 2rem; color: Red;"></i>
-			</h1>
-		</div>
-		
+		</h1>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 	</div>
 	<footer>
 		<%@ include file="../../views/common/footer.jsp"%>
