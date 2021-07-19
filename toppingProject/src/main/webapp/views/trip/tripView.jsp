@@ -27,12 +27,20 @@
 
 .btn_search_submit {
 	background-color: white;
+	color: dodgerblue;
+	border: 0;
 }
 
 label {
 	display: inline-block;
 	width: 80px;
 	line-height: 25px;
+}
+
+.searchView {
+	clear: both;
+	min-width: 1230px;
+	margin: 0 auto;
 }
 
 .blog_main {
@@ -102,9 +110,9 @@ label {
 					<input type="text" name="searchTrip"
 						placeholder="여행가고 싶은 곳을 입력해주세요." onfocus="this.placeholder=''"
 						onblur="this.placeholder='여행가고 싶은 곳을 입력해주세요.'" size="50">
-					<button type="submit">
-						<i class="bi bi-search"></i>
-					</button class="btn_search_submit">
+					<button class="btn_search_submit" type="submit">
+						<i class="bi bi-search" style="font-size: 1.5rem"></i>
+					</button>
 				</div>
 				<!-- 카테고리 체크박스 -->
 				<div class="searchChk">
