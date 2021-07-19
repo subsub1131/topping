@@ -8,8 +8,8 @@
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 <title>topp</title>
 <style type="text/css">
-
 #wrap {
+	width: fit-content;
 	min-width: 1230px;
 	margin: 0 auto;
 }
@@ -38,9 +38,8 @@ label {
 }
 
 .searchView {
-	clear: both;
-	min-width: 1230px;
-	margin: 0 auto;
+	display: inline-block;
+	margin: auto;
 }
 
 .blog_main {
