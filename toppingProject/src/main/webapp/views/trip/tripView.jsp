@@ -21,13 +21,21 @@
 }
 
 .searchBar {
+	display: inline-block;
 	margin-top: 40px;
 	margin-bottom: 20px;
+	border: 1px solid LightCoral;
+	border-radius: 5px;
 }
 
+input:focus {
+	outline:none;
+}
+
+
 .btn_search_submit {
-	background-color: white;
-	color: dodgerblue;
+	color: white;
+	background-color: LightCoral;
 	border: 0;
 }
 
@@ -40,6 +48,7 @@ label {
 .searchView {
 	display: inline-block;
 	margin: auto;
+	margin-top: 40px;
 }
 
 .blog_main {
@@ -107,8 +116,8 @@ label {
 				<!-- 여행 검색바 -->
 				<div class="searchBar">
 					<input type="text" name="searchTrip"
-						placeholder="여행가고 싶은 곳을 입력해주세요." onfocus="this.placeholder=''"
-						onblur="this.placeholder='여행가고 싶은 곳을 입력해주세요.'" size="50">
+						placeholder="   여행가고 싶은 곳을 입력해주세요." onfocus="this.placeholder=''"
+						onblur="this.placeholder='   여행가고 싶은 곳을 입력해주세요.'" size="50" style="border: 0;">
 					<button class="btn_search_submit" type="submit">
 						<i class="bi bi-search" style="font-size: 1.5rem"></i>
 					</button>
