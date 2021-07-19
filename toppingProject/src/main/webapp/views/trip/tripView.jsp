@@ -8,6 +8,14 @@
 	href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 <title>topp</title>
 <style type="text/css">
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300&display=swap');
+
+* {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+
 #wrap {
 	width: fit-content;
 	min-width: 1230px;
@@ -124,6 +132,7 @@ label {
 				</div>
 				<!-- 카테고리 체크박스 -->
 				<div class="searchChk">
+					<h5 style="display: inline-block; margin-right: 10px;">상세검색</h5>
 					<label><input type="checkbox" name="tripCate" value="01"
 							checked="checked">관광지</label> <label><input
 							type="checkbox" name="tripCate" value="02" checked="checked">맛집</label>
@@ -136,7 +145,7 @@ label {
 		<div class="searchView">
 			<!-- SNS 검색목록 -->
 			<div class="blog_main">
-				<h3 style="text-align: center;">SNS 검색목록</h3>
+				<h4 style="text-align: center; margin-bottom: 15px;">SNS 검색목록</h4>
 				<div class="blog_box">
 					<a class="blog_thumb"
 						href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
@@ -153,7 +162,7 @@ label {
 			</div>
 			<!-- 관광지 상세정보 목록 -->
 			<div class="trip_main">
-				<h3 style="text-align: center;">관광지 검색목록</h3>
+				<h4 style="text-align: center; margin-bottom: 15px;">관광지 검색목록</h4>
 				<div class="trip_box">
 					<a class="trip_thumb"
 						href="https://blog.naver.com/priti1?Redirect=Log&logNo=222421448739">
